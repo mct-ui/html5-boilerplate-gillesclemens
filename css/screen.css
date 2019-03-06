@@ -91,10 +91,24 @@ li ol {
     margin-bottom: 0;
 }
 
-hr{
+hr {
     border: 0;
     height: 1px;
     background: lightgray;
     margin: 0 0 24px;
 }
 
+a {
+    color: blue;
+    transition: all .1s ease-in-out;
+}
+
+a:visited,
+a:active{
+    color: blueviolet;
+}
+
+a:hover,
+a:focus {
+    color: crimson;
+}
